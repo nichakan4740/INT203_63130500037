@@ -13,7 +13,6 @@ const result = computed(() => {
   <input type="number" v-model="base" />
   <p>Height: {{ height }}</p>
   <input type="number" v-model="height" />
-  <p>Area Result: {{ result }}</p>
+  <p> Area Result:{{ result }}</p>
 </template>
-
 <style></style>
